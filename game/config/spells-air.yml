@@ -1,0 +1,119 @@
+spells:
+  Gust:
+    available: true
+    casting_time: 1 round
+    desc: Create a brief gust of wind capable of blowing a door shut.
+    duration: 10 minutes
+    effect: Creation
+    level: 1
+    name: Gust
+    range: Short
+    roll: true
+    school: Air
+    target_num: 1
+  Cloud Cover:
+    area: 5 ft radius
+    available: true
+    casting_time: 1 round
+    desc: "Misty vapor gathers around you. It is stationary once created, and can be dispersed by a strong wind. The vapor obscures all sight in a 5 ft radius, effectively making anyone in its midst [hidden](https://www.aresmush.com/fs3/fs3-3/combat/#stance) while standing still."
+    duration: 15 minutes
+    effect: Defense
+    is_potion: true
+    level: 2
+    name: Cloud Cover
+    range: Self
+    rounds: 90
+    school: Air
+    stance: Hidden
+    target_num: 1
+  Wavering Aim:
+    attack_mod: -1
+    available: true
+    casting_time: 1 round
+    desc: 'Create a blast of air that makes it difficult for a single opponent to aim. '
+    duration: 2 rounds.
+    effect: Debuff
+    level: 2
+    line_of_sight: true
+    name: Wavering Aim
+    range: Short
+    rounds: 2
+    school: Air
+    target_num: 1
+  #Level 3
+  Wind Wall:
+    available: true
+    casting_time: 1 round
+    desc: "Deflect ranged projectile attacks directed against you or a single comrade with a gust wind, effectively putting the target in [cover](https://www.aresmush.com/fs3/fs3-3/combat/#stance)."
+    duration: 3 rounds
+    effect: Defense
+    level: 3
+    line_of_sight: true
+    name: Wind Wall
+    range: Short
+    rounds: 3
+    school: Air
+    stance: cover
+    target_num: 1
+  #Level 4
+  Air Blast:
+    area: 5 ft radius
+    available: true
+    casting_time: 1 round
+    desc: Create a powerful blast of wind that knocks an enemy back 5 yards, stunning them.
+    duration: 1 round
+    effect: Stun
+    is_stun: true
+    rounds: 1
+    level: 4
+    line_of_sight: true
+    name: 'Air Blast '
+    range: Short
+    school: Air
+    target_num: 1
+    weapon: Stun (Air)
+  Breathless:
+    area: 10 ft radius
+    available: true
+    casting_time: 1 round
+    desc: 'Draw all oxygen from an area, dousing any flames present and creating oxygen deprivation for up to 3 air-breathing creatures of your choice caught in its range. '
+    duration: 1 round
+    effect: Damage
+    fs3_attack: true
+    level: 4
+    name: Breathless
+    range: Short
+    school: Air
+    target_num: 3
+    weapon: Breathless
+  Sonic Blast:
+    available: true
+    attack_mod: -2
+    casting_time: 1 round
+    desc: The target is blasted by an intense burst of sound, leaving them disoriented. For a short time, it is more difficult for the them to take their intended actions.
+    defense_mod: -2
+    duration: 3 rounds
+    effect: Debuff
+    level: 5
+    line_of_sight: true
+    name: Sonic Blast
+    range: Long
+    rounds: 3
+    school: Air
+    spell_mod: -2
+    target_num: 1
+#Level 7
+  Lightning Strike:
+    available: true
+    casting_time: 1 round
+    desc: A streak of powerful lightning plunges from the sky to strike a target, doing damage.
+    effect: Damage
+    level: 7
+    line_of_sight: true
+    fs3_attack: true
+    name: Lightning Strike
+    range: Long
+    roll: true
+    school: Air
+    target_num: 1
+    weapon: Lightning Strike
