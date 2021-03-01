@@ -298,6 +298,20 @@ spells:
     school: Water
     target_num: 3
     weapon: Cone Of Cold
+  Cold Calm:
+    available: true
+    accuracy_mod:
+    casting_time: 1 round
+    duration: 1 minute
+    desc: The caster imbues themselves with a wintry chill, calming and cooling their body to improve their focus. They move a little slower than normal, but can better anticipate attacks to dodge and have greatly improved accuracy for the duration of the spell.
+    defense_mod: 2
+    effect: Buff
+    level: 5
+    name: Cold Calm
+    range: Self
+    rounds: 6
+    school: Water
+    weapon_specials: Cold Calm
   Ice Armor:
     armor: Ice
     available: true
