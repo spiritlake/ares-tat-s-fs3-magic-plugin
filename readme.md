@@ -16,7 +16,7 @@ Each of these features is complex, and I highly suggest reading the documentatio
 
 ### Magic and FS3
 
-This is a magic system built around FS3, which means there are some limitations. Spells work within the framework of combat. This means that you can mod someone's initiative, attack, or defense, but not their strength. It means that damage is applied via the FS3 damage system, and healed the same way.
+This is a magic system built around FS3, which means there are some limitations. Most spells work within the framework of combat. This means that you can mod someone's initiative, attack, or defense, but not their strength. It means that damage is applied via the FS3 damage system, and healed the same way.
 
 If you're considering using this system, know that you'll need to work WITH FS3, not against it. This will work best with custom magic systems rather than trying to fit existing systems into its framework - although creativity can often get you a long way.
 
@@ -29,7 +29,7 @@ Using this plugin will require a coder who is comfortable with altering core Are
 
 A coder doesn't need to be able to do much more than cut and paste and troubleshoot configuration errors, but those two things DO require some skill, some fearlessness, or possibly both. It is my hope that this plugin can make a complex magic system available to new or casual coders who are willing to experiment, but may not have the time or know-how to code a system from scratch.
 
-I **strongly** suggest using github to back up your code and adding your configuration files. 
+I **strongly** suggest using github to back up your code and adding your configuration files.
 
 Additionally, while this code has been play-tested extensively on Spirit Lake from 2018-2021, there are almost certainly pieces which will break when taken into a new environment. I will do my best to provide support to the first few games to use this code in an effort to smooth out any lingering bugs. You should plan to set it up in a development server and test it thoroughly well before your game goes live.
 
