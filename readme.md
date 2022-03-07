@@ -12,7 +12,7 @@ This is a sprawling plugin that brings magic to Faraday's FS3 system. Features i
 - Magic items
 - Potions
 
-Each of these features is complex, and I highly suggest reading the documentation on each before deciding whether this plugin suits your needs.
+Each of these features is complex, and I highly suggest reading the [documentation](https://github.com/spiritlake/ares-sl-magic-for-fs3-plugin/wiki) on each before deciding whether this plugin suits your needs.
 
 ### Magic and FS3
 
@@ -31,15 +31,16 @@ A coder doesn't need to be able to do much more than cut and paste and troublesh
 
 I **strongly** suggest using github to back up your code and adding your configuration files.
 
-Additionally, while this code has been play-tested extensively on Spirit Lake from 2018-2021, there are almost certainly pieces which will break when taken into a new environment. I will do my best to provide support to the first few games to use this code in an effort to smooth out any lingering bugs. You should plan to set it up in a development server and test it thoroughly well before your game goes live.
+Additionally, while this code has been play-tested extensively on Spirit Lake from 2018-2022, there are almost certainly pieces which will break when taken into a new environment. You should plan to set it up in a development server and test it thoroughly well before your game goes live.
 
 ## Installation
 In the game, run `plugin/install <github url>`.
 
 In addition, there are several places where code should be inserted into the FS3 core code by hand. I suggest inserting both the required and optional code, but in theory skipping the optional code won't actually break anything.
 
-- Required FS3 Code
-- Optional FS3 Code
+- [Required FS3 Code](https://github.com/spiritlake/ares-sl-magic-for-fs3-plugin/wiki/Required-FS3-Code)
+- [Optional FS3 Code](https://github.com/spiritlake/ares-sl-magic-for-fs3-plugin/wiki/Optional-FS3-Code)
+- [Optional Web Portal Code](https://github.com/spiritlake/ares-sl-magic-for-fs3-plugin/wiki/Optional-Web-Portal-Code)
 
 ## Configuring
 
