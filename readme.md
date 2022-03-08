@@ -1,4 +1,6 @@
-# Spirit Lake Magic for FS3
+# Tat's FS3 Magic
+
+**This plugin is NOT publicly released and is still being formatted correctly. Do not attempt to use!**
 
 ## Credit
 This plugin by Tat @ Ares Central.
