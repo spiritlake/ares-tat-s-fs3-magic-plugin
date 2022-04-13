@@ -9,10 +9,10 @@ This plugin by Tat @ Ares Central.
 
 This is a sprawling plugin that brings magic to Faraday's FS3 system. Features include:
 
-- Schools of magic
-- Magic spells
-- Magic items
-- Potions
+- [Schools of magic](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/Schools)
+- [Magic spells](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/Spells#spell-effects)
+- [Magic items](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/Magic-Items)
+- [Potions](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/Potions)
 
 Each of these features is complex, and I highly suggest reading the [documentation](https://github.com/spiritlake/ares-sl-magic-for-fs3-plugin/wiki) on each before deciding whether this plugin suits your needs.
 
@@ -25,11 +25,12 @@ If you're considering using this system, know that you'll need to work WITH FS3,
 ### Coding Needs
 
 **WARNING**
-This is NOT a plug-and-play plugin.
+
+**This is NOT a plug-and-play plugin.**
 
 Using this plugin will require a coder who is comfortable with altering core Ares code. I have tried to keep the intrusions to a minimum, and much of the day-to-day work is done in yml configuration files, but there are inevitably pieces that must be inserted into the FS3 code.
 
-A coder doesn't need to be able to do much more than cut and paste and troubleshoot configuration errors, but those two things DO require some skill, some fearlessness, or possibly both. It is my hope that this plugin can make a complex magic system available to new or casual coders who are willing to experiment, but may not have the time or know-how to code a system from scratch.
+A coder doesn't need to be able to do much more than cut and paste and troubleshoot configuration errors, but those two things DO require some skill, some fearlessness, or possibly both. It is my hope that this plugin can make a complex magic system available to new or casual coders who are willing to experiment, but may not have the time or know-how to code a system from scratch. It is unfortunately NOT going to make it available to folks who are entirely uncomfortable adjusting and troubleshooting code.
 
 I **strongly** suggest using github to back up your code and adding your configuration files.
 
@@ -46,9 +47,9 @@ In addition, there are several places where code should be inserted into the FS3
 
 ## Configuring
 
-- Overall Magic Configuration
-- Spell Configuration
-- Special FS3 Configuration
+- [General Configuration](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/General-Configuration)
+- [Spell Configuration](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/Configuring-Spells)
+- [Special FS3 Configuration](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/FS3-Special-Configuration)
 
 ## Uninstalling
 
