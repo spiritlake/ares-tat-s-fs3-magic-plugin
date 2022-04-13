@@ -14,7 +14,7 @@ This is a sprawling plugin that brings magic to Faraday's FS3 system. Features i
 - [Magic items](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/Magic-Items)
 - [Potions](https://github.com/spiritlake/ares-tat-s-fs3-magic-plugin/wiki/Potions)
 
-Each of these features is complex, and I highly suggest reading the [documentation](https://github.com/spiritlake/ares-sl-magic-for-fs3-plugin/wiki) on each before deciding whether this plugin suits your needs.
+Each of these features is complex, and I highly suggest reading the [overview and documentation](https://github.com/spiritlake/ares-sl-magic-for-fs3-plugin/wiki) on each before deciding whether this plugin suits your needs. 
 
 ### Magic and FS3
 
