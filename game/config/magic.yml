@@ -1,5 +1,7 @@
 ---
 magic:
+  days_between_learning_spells: 7
+  item_category: "Luck"
   shield_cron:
     hour:
     - 02
@@ -11,6 +13,8 @@ magic:
   shortcuts:
     combat/cast: combat/spell
     cast: spell/cast
+  permissions:
+    manage_magic: Add and remove magic items, potions, and spells to and from characters.    
   achievements:
     potions_made:
       type: potion
